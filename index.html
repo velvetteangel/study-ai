@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Study Companion</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="libs/mammoth.browser.min.js"></script> <!-- Include Mammoth.js -->
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>AI Study Companion</h1>
+    </header>
+
+    <main class="main">
+      <section class="upload-section">
+        <h2>Upload Your Study Material</h2>
+        <input type="file" id="fileInput" class="file-input" accept=".pdf,.doc,.docx">
+        <button id="uploadButton" class="button">Upload</button>
+        <button id="okButton" class="button hidden">OK</button>
+      </section>
+
+      <section class="summary-section">
+        <h2>Summary</h2>
+        <div id="summaryContent" class="content-box">
+          <p>Upload your study material to generate a summary!</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made with ❤️ for learning!</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
